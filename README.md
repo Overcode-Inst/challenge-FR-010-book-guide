@@ -26,9 +26,9 @@ Ao completar, não esqueça de publicar no linkedin e adicionar #handsOnRoadmap
 
 <br />
 
-Imagine que foi pedido a você para fazer uma página que tenha como foco mostrar paisagens turísticas do Brasil.
+Imagine que foi pedido a você para fazer uma página que precise mostrar sobre gêneros de livros, porém isso precisa estar acessível para multi-idiomas.
 
-E com foco de mostrar o melhor do que você acredita ter por aqui.
+Para divulgar mais sobre a leitura e sua importância.
 
 <br />
 
@@ -42,8 +42,8 @@ Sua aplicação deve ter:
 
 <br />
 
-- Pelo menos três sections mostrando 3 cidades de 3 estados diferentes do Brasil.
-- A aplicação tem que ser convidativa para turistas estrangeiros, portanto deve contar com a possibilidade de trocar de idiomas entre português, inglês e espanhol. Através de um botão de seleção que fica no canto superior direito da página.
+- Pelo menos cinco sections, sendo duas para eevidenciar sobre a importância da leitura e pelo menos três falando sobre seus três gêneros de livros favoritos (uma section cada pelo menos, podendo ser mais ou falar de mais gêneros de livros).
+- A aplicação deve contar com a possibilidade de trocar de idiomas entre português, inglês e espanhol. Através de um botão de seleção que fica no canto superior direito da página.
 
 ### :dart: Requisitos não funcionais <a name="id01.2.2"></a>
 
@@ -54,7 +54,7 @@ Sua aplicação deve ter:
 - ReactJs
 - fazer deploy
 - React-translate ou i18next para criação da parte de idiomas da aplicação
-- Uso de componentes de classe, assim como a forma que utilize High order components (HOC) das libs de multi-idioma.
+- Uso de componentes funcionais, usando hooks específicos para isso.
 
 <br />
 
@@ -71,7 +71,9 @@ Você será bem avaliado se usar:
 - organizar e dividir bem os arquivos
 - Componentizar e separar bem o que achar que deve
 - Usar typeScript
-- Explicar no readme o grande malefício de usar muitos HOC's na aplicação. Dica: foi um dos motivadores para o nascimento dos Hooks
+- Aplicar inversão de dependência ao usar o hook de tradução, sendo que sua aplicação não dependa diretamente do hook de tradução.
+- Explicar a vantagem de usar hooks e não HOC's
+- Evidenciar porquê usar o hook através de um custom hook é vantajoso para esse caso.
 
 <br />
 
